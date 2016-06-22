@@ -1,6 +1,6 @@
 " Name:       off.vim
-" Version:    0.1
-" Maintainer: github.com/pbrisbin
+" Version:    0.1-custom
+" Maintainer: github.com/duckwork
 " License:    The MIT License (MIT)
 "
 " A colorscheme meant to look like a more pleasant version of syntax off.
@@ -140,7 +140,7 @@ hi! link ModeMsg MoreMsg
 call s:h("LineNr",        {"fg": s:bg_subtle})
 call s:h("CursorLineNr",  {"fg": s:blue, "bg": s:bg_very_subtle})
 call s:h("Question",      {"fg": s:red})
-call s:h("StatusLine",    {"bg": s:bg_very_subtle})
+call s:h("StatusLine",    {"bg": s:bg_very_subtle, "gui": "underline", "cterm": "underline"})
 call s:h("StatusLineNC",  {"bg": s:bg_very_subtle, "fg": s:medium_gray})
 call s:h("VertSplit",     {"bg": s:bg_very_subtle, "fg": s:bg_very_subtle})
 call s:h("Title",         {"fg": s:dark_blue})
