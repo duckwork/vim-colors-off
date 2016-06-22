@@ -1,5 +1,7 @@
 # vim-colors-off
 
+FORKED FROM PBRISBIN.  So 's/pbrisbin/duckwork' if you just *need* this one.
+
 *This is very much a work in progress*
 
 For a number of weeks, I ran vim with `syntax off`. It was quite nice, 
